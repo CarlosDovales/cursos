@@ -1,0 +1,17 @@
+<%- include("template/header", {tituloWeb: "Página de inicio"}) %>
+<!--El guion medio lee un html-->
+
+<div class="d-flex">
+    <%- include("sidebar") %> 
+    <div style="margin-left: 210px; width: 100%;">
+        <%- include("formulariosaml") %>
+        <div class="blog-card m-4"
+        style="overflow-x: auto; overflow-y: auto; white-space: nowrap">
+        <%- include("table") %>
+        
+        </div>
+
+        
+    </div>
+</div>
+<%- include("template/footer") %>

@@ -1,0 +1,52 @@
+:root {
+  --blanco: white;
+  --colorSoyYo: #5a33ff;
+}
+
+#sidebar {
+  position: absolute;
+  width: 200px;
+  height: 100%;
+  background: rgb(2, 0, 36);
+  background: linear-gradient(
+    0deg,
+    rgba(2, 0, 36, 1) 0%,
+    rgba(90, 51, 240, 1) 62%
+  );
+
+  transition: all 500ms linear;
+  border-radius: 0px 10px;
+}
+
+
+
+#sidebar .menu {
+  color: --blanco;
+  
+  padding: 15px 10px;
+  border-bottom: 1px solid rgba(100, 100, 100, 0.3);
+}
+
+.itemSidebar {
+  text-decoration: none;
+}
+
+
+
+.tituloLogo {
+  text-align: center;
+  padding: .875rem 1.25rem;
+  font-size: 1em;
+  font-weight: bold; 
+  margin: auto;
+  font-family: "Helvetica", Montserrat;
+}
+
+.subtitulo {
+  font-family: "Helvetica", Montserrat;
+  font-weight: 900; 
+  font-size: 0.8rem;
+  font-weight: 100;
+  letter-spacing: 1px;
+  color: white
+}

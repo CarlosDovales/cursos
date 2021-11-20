@@ -1,0 +1,228 @@
+
+/* formulario css */
+.formulario {
+    padding:20px;
+}
+.container-form {
+    margin:auto;
+    padding: 20px;
+}
+.tituloColumna {
+    text-align: center;
+    margin:auto;
+    color: black;
+    font-family: "Helvetica",Montserrat;
+    font-weight: 750;
+}
+.itemInfo {
+    justify-content: center;
+    margin-top: 20px;
+    text-align: center;
+}
+.labels {
+    display:block;
+    width: max-content;
+    color: #2e2c35;
+    font-family: "Helvetica",Montserrat;
+    font-weight: 600;
+    
+}
+.col3{
+    margin: auto;
+    text-align: center;
+}
+.col-md-4 {
+    display:block;
+}
+
+
+input {
+    border: 1px solid #CCC;
+    box-sizing: border-box;
+    color: #666;
+    height: 35px;
+    padding: 0 10px;
+    border-radius: 3px;
+    font-family: "Helvetica",Montserrat;
+    justify-content: right;
+}
+.col-md-2 {
+    width: max-content;
+}
+.btn-soyyo {
+    padding: 10px;
+    font-size: 16px;
+    border-radius: 5px;
+    text-align: center;
+    box-sizing: border-box;
+    background-color: #5a33ff;
+    font-weight: bold;
+    color:white;
+}
+.bottons {
+    margin-top: 20px;
+    position: relative;
+    justify-content: center;
+
+    
+}
+.col-md-5 {
+    justify-content: center;
+    margin: auto;
+    text-align: center;
+}
+/* 
+.tituloColumna {
+    text-align: center;
+}
+h4 {
+    margin:auto;
+    color: black;
+    font-family: "Helvetica",Montserrat;
+    font-weight: 900;
+}
+.etiqueta1, .etiquetaCorreo {
+    padding-right: 30px;
+    text-align: left;
+}
+
+.etiquetaNombre {
+    padding-right: 128px;
+    padding-left: 2px;
+    
+}
+.etiqueta2 {
+    
+    text-align: center;
+    justify-content: center;
+
+}
+.etiquetas {
+     
+    display:block;
+
+    width: auto;
+
+    color: #2e2c35;
+    font-family: "Helvetica",Montserrat;
+    font-weight: 600;
+
+
+}
+.etiquetas1 {
+    padding-right: 30px;
+    justify-content: left;
+    margin:auto;
+
+    display:block;
+    
+    width: auto;
+    margin-block-start: 0.5em;
+    margin-block-end: 0.5em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    color: #2e2c35;
+    font-family: "Helvetica",Montserrat;
+    font-weight: 900;
+
+}
+
+.input {
+    border: 1px solid #CCC;
+    box-sizing: border-box;
+    color: #666;
+    height: 35px;
+    padding: 0 10px;
+    border-radius: 3px;
+    font-family: "Helvetica",Montserrat;
+    justify-content: right;
+    
+}
+
+.opcional {
+    margin-left: 5px;
+    font-weight: 100;
+    font-size: 11px;
+    font-style: italic;
+    font-family: "Helvetica",Montserrat;
+    text-align: left;
+}
+.textArea {
+    border: 1px solid #CCC;
+    box-sizing: border-box;
+    box-shadow: inset 0 0 3px rgb(0 0 0 / 20%);
+    width: 300px;
+    color: #666;
+    background-color: #fff;
+    font-size: 14px;
+    line-height: 1.428571429;
+    display: block;
+    min-height: max-content;
+    padding: 10px!important;
+    min-width: 100%;
+    max-width: 100%;
+    font-family: "Helvetica",Montserrat;
+    border-radius: 3px;
+    justify-content: center;
+    margin: auto;
+}
+
+
+
+.blog-card{
+  width: auto;
+ 
+  height: auto;
+  position: fixed;
+  
+  margin: auto;  
+  border-radius: 10px;
+  box-shadow: 3px 3px 20px rgba(0, 0, 0, .5);
+  }
+.container-form {
+    margin:auto;
+    padding: 20px;
+}
+.formulario{
+    margin: auto;
+    
+    
+}
+.row {
+    justify-content: center;
+}
+.btn-soyyo {
+    padding: 10px;
+    font-size: 16px;
+    border-radius: 5px;
+    text-align: center;
+    box-sizing: border-box;
+    background-color: #5a33ff;
+    font-weight: bold;
+    color:white;
+}
+.col-md-6{
+    padding: 10px;
+
+} */
+
+/* formulario css */
+body {
+    font-family: "Helvetica", Montserrat ;
+}
+/*               header css              */
+.header {
+    width: 100%;
+ 
+    height: auto;
+    position:relative;
+    
+    margin: -30px -5px 5px -5px;  
+    border-radius: 10px;
+    box-shadow: 3px 3px 20px rgba(0, 0, 0, .5);
+}
+
+.imagenSoyYo, .tituloPrincipal {
+    padding-top: 20px;
+}
+/* ************************************* */

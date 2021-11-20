@@ -1,0 +1,18 @@
+
+thead {
+    background-color: #5a33ff;
+    color: white;
+    text-align: center;
+    
+    box-shadow: 3px 3px 20px rgba(0, 0, 0, .5);
+  }
+  .blog-card{
+    width: auto;
+   
+    height: auto;
+    position:relative;
+    
+    margin: auto;  
+    border-radius: 10px;
+    box-shadow: 3px 3px 20px rgba(0, 0, 0, .5);
+    }
