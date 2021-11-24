@@ -10,13 +10,15 @@ try {
     console.log('Termina la revisión de errores.')
 }
 
-let resultado = '5';
+let resultado = '';
 
 try {
     if(isNaN(resultado)) {
         throw 'No es un numero'
     }
-    
+    else if(resultado === '') {
+        throw 'Cadena vacia'
+    }
 } catch (error) {
     console.log(error);
     console.log(error.name);
