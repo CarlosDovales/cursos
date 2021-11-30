@@ -23,4 +23,4 @@ En los formularios, la etiqueta action, es la acción donde se va a enviar los d
 fieldset es un marco del formulario
 La etiqueta EM nos permite resaltar una palabra
 Para tildes en HTML es &letraacute; ejemplo ó sería &oacute;
-Marcadores de fuentes: 
+El tag pre se usa para dar un preformato a nuestro texto, la idea es mostrar el texto como  se escrib
