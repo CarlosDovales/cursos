@@ -1,0 +1,25 @@
+-----------------------
+INTRODUCCIÓN A HTML
+---------------------
+
+Lenguaje estandar en aplicaciones web, html lenguaje de marcado de hipertexto, avances hasta ajax, se apoya de http hypertext transfer protocolo
+
+Se basa en etiquetas o tags
+
+COMPONENTES HTML
+- Componentes de hipervinculos:
+    links, botones e imagenes 
+-Componentes Fomularios:
+    Fomularios, checkboxes, radio buttons listas campos de texto y de areas 
+- Otros componnetes:
+    Frames, Gráficos, div Objetos embebidos 
+
+
+
+Componentes URL:
+    Scheme: //host, :port, /path, :parameters, ?query #ancla
+    #ancla, una parte de la pagina html donde se este indicando el elemento ancla.
+En los formularios, la etiqueta action, es la acción donde se va a enviar los datos del formularios.
+fieldset es un marco del formulario
+La etiqueta EM nos permite resaltar una palabra
+Para tildes en HTML es &letraacute; ejemplo ó sería &oacute;
