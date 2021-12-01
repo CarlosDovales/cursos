@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Ejemplo DOM con JavaScript</title>
+    <style>
+        .azul{
+            color: blue;
+            font-size: 12px;
+        }
+    </style>
+</head>
+<body>
+    <!-- <h1 id="cabecero">Ejemplo DOM con JavaScript</h1>
+    <p id="parrafo">Saludos!</p>
+    <p id="parrafo1">Otro parrafo</p>
+    <p class="azul">Parrafo con clase azul</p>
+    <p class="azul">Parrafo2 con clase azul</p> -->
+    <form id="formulario">
+        Nombre: <input type="text" name="nombre" value="Juan">
+        <br/>
+        Apellido: <input type="text" name="apellido" value="Perez">
+    </form>
+    <button onclick="mostrarValores()">Mostrar
+    </button>
+    <div id="valores"></div>
+    <script>
+        // let cabecero = document.getElementById("cabecero"); //Recuperar el texto de h1
+        // let parrafo = document.getElementById("parrafo").innerHTML;
+        // console.log('Saludos desde JavaScript');
+        // console.log(cabecero.innerHTML)
+        // console.log(parrafo)
+        // // cabecero.innerHTML = 'Nuevo cabecero'
+        // //Cambio del contenido del titulo
+        // let parrafos = document.getElementsByTagName('p')
+        // console.log(`Numero de parrafos: ${parrafos.length}`)
+        // for (let index = 0; index < parrafos.length; index++) {
+        //     console.log(parrafos[index].innerHTML)
+            
+        // }
+        // let parrafosAzul = document.getElementsByClassName('azul');
+        // console.log('Mostrando elementos con clases azul')
+        // for(let element of parrafosAzul) {
+        //     console.log(`Parrafo azul ${element.innerHTML}`)
+        // // }
+        // let elements = document.querySelectorAll('p.azul')
+        // for(let elemento of elements) {
+        //     console.log(elemento.innerHTML)
+        // }
+        function mostrarValores() {
+            let valuesForm = document.forms['formulario'];
+            let text = '';
+            for(let elemento of valuesForm){
+                text += elemento.value + '<br/>'
+            }
+            console.log(text)
+            document.getElementById('valores').innerHTML = text;
+        }
+        
+    </script>
+    
+</body>
+</html>
